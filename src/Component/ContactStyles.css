@@ -1,0 +1,54 @@
+.contact-main{
+    /* border: 15px solid red; */
+    padding: 20px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+}
+.contact-heading{
+    text-align: center;
+    font-size: 25px;
+    /* margin-top: 200px; */
+    /* margin-bottom: 190px; */
+}
+.my-contact{
+    /* margin-top: 190px; */
+    margin-bottom: 10px;
+}
+.contact-heading hr{
+    width: 60px;
+    background-color: #3385D9;
+    height: 2px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 20px;
+    width: 45%;
+    margin: 5px auto;
+}
+
+input{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 12px 12px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #3385D9;
+    font-size: 15px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    width: 6rem;
+    margin: 10px 0px 20px 0px;
+    background-color: #3385D9;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 10px;
+}

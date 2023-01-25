@@ -1,0 +1,35 @@
+.footer-container{
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+.footer-container hr{
+    margin-top: 70px;
+    width: 85%;
+    background-color: #3385D9;
+    height: 2px;
+    opacity: 0.7;
+}
+.footer-logo{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-container img{
+    height: 70px;
+    margin-top: 3px;
+}
+.footer-info{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-info p{
+    margin-top: 1px;
+    font-size: 17px;
+}
+.copyright{
+    margin-right: 2px;
+    vertical-align: middle;
+}

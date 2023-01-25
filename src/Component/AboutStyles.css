@@ -1,0 +1,144 @@
+.about-container{
+    margin-bottom: 120px;
+    border: 5px solid white;
+}
+.about-heading{
+    text-align: center;
+    font-size: 25px;
+}
+.my-about{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.about-heading hr{
+    width: 58px;
+    background-color: #3385D9;
+    height: 2px;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .about-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+}
+@media (max-width: 992px) {
+    .about-lang-tool{
+        margin: 0 auto;
+    }
+    .about-dec{
+        margin: 0 auto;
+    }
+}
+.about-lang-tool{
+    /* border: 2px solid red; */
+    width: 25rem;
+}
+.about-dec{
+    padding: 20px;
+    width: 27rem;
+    border-left: 4px solid #3385D9;
+    background-color: rgb(245, 245, 245);
+    font-size: 18px;
+    /* border: 2px solid red; */
+}
+@media (max-width:430px){
+    .lang span{
+        font-size: 25px;
+    }
+    .about-lang-tool{
+        width: 22rem;
+    }
+    .soft-tool span{
+        font-size: 25px;
+    }
+    .about-dec{
+        width: 20rem;
+    }
+}
+.lab{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.lang{
+    font-size: 22px;
+    margin: 10px 0px 0px 10px;
+}
+.html{
+    vertical-align: middle;
+    color: red;
+    font-size: 40px;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+}
+.css{
+    vertical-align: middle;
+    color: blue;
+    font-size: 40px;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+}
+.js{
+    vertical-align: middle;
+    color: #F7DF1E;
+    font-size: 40px;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+}
+.react{
+    vertical-align: middle;
+    color: #5ED3F3;
+    font-size: 40px;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+}
+.java{
+    vertical-align: middle;
+    color: #E36F02;
+    font-size: 40px;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+}
+.soft-tool{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.tool{
+    font-size: 22px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.firebase{
+    vertical-align: middle;
+    color: #FFCB2B;
+    font-size: 40px;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+}
+.bs{
+    vertical-align: middle;
+    color: #664195;
+    font-size: 40px;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+}
+.wp{
+    vertical-align: middle;
+    color: #1B769C;
+    font-size: 40px;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+}
+
+.html:hover, .css:hover, .js:hover, .react:hover, .java:hover{
+    transform: scale(1.5);
+}
+.firebase:hover, .bs:hover, .wp:hover{
+    transform: scale(1.5);
+}

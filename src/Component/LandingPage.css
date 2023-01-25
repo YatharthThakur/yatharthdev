@@ -1,0 +1,8 @@
+.navbar-com{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    overflow: hidden;
+    display: block;
+    z-index: 1
+}
